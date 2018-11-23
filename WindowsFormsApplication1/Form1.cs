@@ -17,6 +17,7 @@ namespace WindowsFormsApplication1
         MySqlCommand cmd;
         MySqlDataAdapter adpt;
         DataTable dt;
+
         MySqlConnection con = new MySqlConnection("Server = localhost; Database = regisztracio; Uid = root; Pwd = ;");
         public Form1()
         {
